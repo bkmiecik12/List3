@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Punkt.h"
 
 using namespace std;
 
