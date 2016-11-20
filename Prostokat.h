@@ -11,8 +11,8 @@ class Prostokat
 	
 	
 	Prostokat(Punkt,Punkt);
-	Prostokat(int,int,int,int);
+	Prostokat(int a1,int a2,int a3,int a4);
 	~Prostokat();
-	int pole();
+	double pole();
 
 };

@@ -18,7 +18,7 @@ Prostokat::Prostokat(int a1, int a2, int a3, int a4)
 
 Prostokat::~Prostokat(){}
 
-int pole()
+double Prostokat::pole()
 {
 	return (b.x-a.x)*(b.y-a.y);
 }
