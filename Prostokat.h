@@ -9,7 +9,7 @@ class Prostokat
 	Punkt a;
 	Punkt b;
 	
-	
+	Prostokat();
 	Prostokat(Punkt,Punkt);
 	Prostokat(int a1,int a2,int a3,int a4);
 	~Prostokat();

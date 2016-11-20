@@ -4,6 +4,11 @@
 
 using namespace std;
 
+
+Prostokat::Prostokat()
+{
+
+}
 Prostokat::Prostokat(Punkt a1, Punkt a2)
 {
 	a = a1;
