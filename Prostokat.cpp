@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Prostokat.h"
+#include <stdlib.h>
 //#include "Punkt.h"
 
 using namespace std;
@@ -25,5 +26,5 @@ Prostokat::~Prostokat(){}
 
 double Prostokat::pole()
 {
-	return (b.x-a.x)*(b.y-a.y);
+	return abs(b.x-a.x)*abs(b.y-a.y);
 }
