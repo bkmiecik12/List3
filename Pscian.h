@@ -3,9 +3,10 @@
 
 using namespace std;
 
-class Pscian : public Prostokat
+class Pscian
 {
 	public:
+	Prostokat p;
 	Punkt c;
 	
 	Pscian(Prostokat,Punkt);
